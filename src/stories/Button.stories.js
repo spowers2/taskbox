@@ -20,6 +20,13 @@ export default {
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
+/** 
+
+ * A primary button component that triggers an action when clicked.
+
+ * @prop {string} label - The text displayed on the button.
+
+ */ 
 export const Primary = {
   args: {
     primary: true,
