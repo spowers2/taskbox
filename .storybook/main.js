@@ -2,6 +2,7 @@
 const config = {
   stories: [ "../src/**/*.stories.@(js|jsx|ts|tsx)"],
   staticDirs: ["../public"],
+  
 
   addons: [
     "@storybook/addon-links",

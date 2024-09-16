@@ -12,6 +12,7 @@ export const Default = {
                 title: "Task 1", 
                 state: "TASK_INBOX" },
     },
+
 };
 
 export const Pinned = {

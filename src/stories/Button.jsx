@@ -29,7 +29,7 @@ Button.propTypes = {
    */
   backgroundColor: PropTypes.string,
   /**
-   * How large should the button be?
+   * Only Use small, medium, or large
    */
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   /**
@@ -47,4 +47,5 @@ Button.defaultProps = {
   primary: false,
   size: 'medium',
   onClick: undefined,
+  onSelect: undefined,
 };
